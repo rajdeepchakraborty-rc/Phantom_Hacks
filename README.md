@@ -31,3 +31,10 @@ This repository contains all the code, design elements, and documentation for th
 
 ## ⭐️ Support the Project
 If you find this project interesting or helpful, please consider giving it a ⭐️ on GitHub! Hope you have a great day ahead! 😄
+
+<!-- Added back to the top button -->
+<div align="center">
+    <a href="#top">
+        <img src="https://img.shields.io/badge/Back%20to%20Top-000000?style=for-the-badge&logo=github&logoColor=white" alt="Back to Top">
+    </a>
+</div>
