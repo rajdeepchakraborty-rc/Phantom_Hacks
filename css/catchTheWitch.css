@@ -7,6 +7,28 @@ body {
     color: #f1f1f1;
 }
 
+/* Logo CSS */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the image before hover with Glow and Pulsating effect */
+.logo-image {
+    width: 90px;
+    height: auto;
+    margin-right: 10px;
+    animation: pulse 1.5s infinite; /* Applied: Pulsating effect */
+    filter: brightness(1.5); /* Applied: Glow effect */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effects for the image */
+.logo-image:hover {
+    transform: scale(1.1); /* Slightly enlarge the logo on hover */
+    content: url('/Assets/Page_Logo/Logo_After.png'); /* Image change on hover */
+}
+
 h1, h2, h3 {
     color: #ff7518;
     text-shadow: 2px 2px 5px black;
