@@ -1,0 +1,190 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Creepster', 'Nosifer', sans-serif;
+    background-color: #0e0e0e;
+    color: #f1f1f1;
+}
+
+/* Logo CSS */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the image before hover with Glow and Pulsating effect */
+.logo-image {
+    width: 90px;
+    height: auto;
+    margin-right: 10px;
+    animation: pulse 1.5s infinite; /* Applied: Pulsating effect */
+    filter: brightness(1.5); /* Applied: Glow effect */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effects for the image */
+.logo-image:hover {
+    transform: scale(1.1); /* Slightly enlarge the logo on hover */
+    content: url('/Assets/Page_Logo/Logo_After.png'); /* Image change on hover */
+}
+
+h1, h2, h3 {
+    color: #ff7518;
+    text-shadow: 2px 2px 5px black;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+a {
+    color: #ff7518;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+/* Header Styles */
+.header {
+    background-color: #1c1c1c;
+    padding: 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Navbar Styles */
+.navbar {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 75px;
+}
+
+.navbar .logo h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li {
+    font-size: 1.2rem;
+}
+
+/* Insert here */
+
+.envbg {
+    background: url('/Assets/Page_Backgrounds/Trade_your_soul_gameBG.jpg') no-repeat center top/cover;
+    height: 100vh;
+    position: relative;
+}
+
+
+.envelope {
+    width: 444px;
+    height: 250px;
+    background-color: #ff7518;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 80px;
+    margin-top: 175px;
+    transition: background-color 1s ease-out; /* Change color transition */
+}
+
+.envelope-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.envelope input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.envelope button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.envelope.fade-out {
+    opacity: 0;
+    pointer-events: none; /* Disable interactions during fade out */
+}
+
+.reply-message {
+    display: none; /* Hidden by default */
+    width: 100%; /* Fill the envelope width */
+    height: auto; /* Auto height to fit text */
+    background-color: transparent; /* Transparent to show the envelope's background */
+    color: #FFFF00; /* Text color inside the envelope */
+    text-align: center; /* Center text */
+    font-size: 18px; /* Adjust font size */
+    margin-top: 10px; /* Space above the reply message */
+}
+
+
+/* Footer Section */
+.footer {
+    /* margin-top: 25px; */
+    background-color: #141414;
+    padding: 2rem 10%;
+    text-align: center;
+    color: #999;
+}
+
+.footer p {
+    margin-bottom: 1rem;
+}
+
+.footer .social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer .social-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: orange; /* Added: Outer circle in background */
+    border-radius: 50%; /* Adjusted: Circular shape */
+    color: white; /* Icon color */
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.footer .social-links a:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    background-color: red;
+}
+
+.footer .social-links a:hover .fa-github{
+    color: #181717;
+}
+
+.footer .social-links a:hover .fa-linkedin{
+    color: #0077B5;
+}
+
+.footer .social-links a:hover .fa-x-twitter{
+    color: black;
+}
