@@ -8,7 +8,8 @@
     <link rel="shortcut icon" href="/Assets/Favicon/Favicon_2.png" type="image/x-icon">
     <title>Phantom Hacks</title>
     <!-- Linked CSS file -->
-    <link rel="stylesheet" href="/css/catchTheWitch.css">
+    <link rel="stylesheet" href="/css/tradeyoursoul.css">
+    <link rel="stylesheet" href="/css/scroll.css">
     <!-- Added Fonts: Nosifer and Creepster -->
     <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Creepster&display=swap" rel="stylesheet">
     <!-- Added Font Awesome Icons Latest Version to render Icons -->
@@ -29,7 +30,7 @@
         <nav class="navbar">
             <a href="/index.html">
                 <div class="logo">
-                    <img src="/Assets/Page_Logo/Logo_Before.png" alt="Phantom Logo" class="logo-image"/>
+                    <img src="/Assets/Page_Logo/Logo_Before.png" alt="Phantom Logo" class="logo-image" />
                     <h1>Phantom Hacks</h1>
                 </div>
             </a>
@@ -42,37 +43,26 @@
         </nav>
     </header>
 
-
-    <!-- Witch game -->
-
-    <div class="witchgame">
-        <div>
-            <div id="witch" style="position: relative;width: 100px; height:auto;">
-                <img src="../Assets/witch.webp" alt="" style="width: 100px; height:auto;">
+    <!-- Insert Here -->
+    <div class="envbg">
+        <div class="envelope" id="envelope">
+            <div class="envelope-inner">
+                <input type="text" id="nameInput" placeholder="Write a name..." />
+                <button onclick="closeEnvelope()">Trade</button>
+                <div id="replyMessage" class="reply-message"></div> <!-- Place reply message here -->
             </div>
-        </div>
-        <div class="highscoreInfo">
-            <h1>Your Points</h1>
-            <p class="points fs-90">
-                0
-            </p>
-            <h2 class="witchTalk">
-                HAHAHA Catch me!!
-            </h2>
-            <p class="description">
-                <h4 class="fs-18">Description</h4>
-                <p class="fs-16">
-                    Try to catch the witch with your mouse cursor by clicking at her.
-                    She is really fast.
-                    Good luck!!!
-                </p>
-            </p>
         </div>
     </div>
 
     <!-- Footer Section -->
     <footer class="footer">
         <p>&copy; 2024 Phantom Hacks. Built with 💀 and 🎃.</p>
+
+        <!-- Add Scroll to top button -->
+        <button id="scrollToTopBtn" class="scrollToTopBtn" onclick="scrollToTop()">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+
         <!-- Social Icons -->
         <div class="social-links">
             <a href="https://github.com"><i class="fab fa-github"></i></a>
@@ -82,7 +72,8 @@
     </footer>
 
     <script src="/js/script.js"></script>
-    <script src="../js/catchTheWitch.js"></script>
+    <script src="/js/tradeyoursoul.js"></script>
+    <script src="/js/scroll.js"></script>
 </body>
 
 </html>

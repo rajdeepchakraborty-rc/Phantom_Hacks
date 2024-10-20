@@ -95,45 +95,68 @@ a:hover {
     font-size: 1.2rem;
 }
 
+/* Insert here */
 
-/* Witch Game */
+.envbg {
+    background: url('/Assets/Page_Backgrounds/Trade_your_soul_gameBG.jpg') no-repeat center top/cover;
+    height: 100vh;
+    position: relative;
+}
 
-.witchgame{
+
+.envelope {
+    width: 444px;
+    height: 250px;
+    background-color: #ff7518;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 80px;
+    margin-top: 175px;
+    transition: background-color 1s ease-out; /* Change color transition */
+}
+
+.envelope-inner {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
 }
 
-.highscoreInfo {
-    text-align: center;
-    background-color: #343a40cc;
-    height: 450px;
-    margin-top: 35px;
-    margin-bottom: 15px;
+.envelope input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
-.description {
-    margin-top: 15px;
+.envelope button {
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
-/* font-size */
-.fs-16 {
-    font-size: 16px;
-    padding: 15px;
+.envelope.fade-out {
+    opacity: 0;
+    pointer-events: none; /* Disable interactions during fade out */
 }
 
-.fs-18 {
-    font-size: 18px;
-}
-
-.fs-90 {
-    font-size: 90px;
-    margin: 25px;
+.reply-message {
+    display: none; /* Hidden by default */
+    width: 100%; /* Fill the envelope width */
+    height: auto; /* Auto height to fit text */
+    background-color: transparent; /* Transparent to show the envelope's background */
+    color: #FFFF00; /* Text color inside the envelope */
+    text-align: center; /* Center text */
+    font-size: 18px; /* Adjust font size */
+    margin-top: 10px; /* Space above the reply message */
 }
 
 
 /* Footer Section */
 .footer {
-    margin-top: 25px;
+    /* margin-top: 25px; */
     background-color: #141414;
     padding: 2rem 10%;
     text-align: center;
