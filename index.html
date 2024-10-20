@@ -1,11 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phantom Hacks</title>
+    <!-- Linked CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Added Fonts: Nosifer and Creepster -->
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Creepster&display=swap" rel="stylesheet">
+    <!-- Added Font Awesome Icons Latest Version to render Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
+
 <body>
-    
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html">
+                <div class="logo">
+                    <h1>Phantom Hacks</h1>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#entertainments">Entertainment</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Facts</a></li>
+                <li><a href="#">Costumes</a></li>
+                <li><a href="#">Activities</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-text">
+            <h2>Unleash Your Creativity in the Spooky Realm</h2>
+            <p>Phantom Hacks - Where Code Meets the Crypt</p>
+            <a href="#" class="cta-button">Learn More</a> <!-- Redirect to About page -->
+        </div>
+    </section>
+
+    <!-- Games Section --> <!-- Add Game: Catch the witch, Trade Soul, Trick or Treat -->
+    <section class="games" id="games">
+        <h2>Games</h2>
+        <div class="game-cards">
+            <div class="card">
+                <h3>Catch the Witch</h3>
+                <div class="card-img">
+                    <img src="Assets/Game_Cards/Catch the Witch.png" alt="Catch the Witch Game">
+                </div>
+                <p>Outrun the broomsticks and snag the mischievous witch before she vanishes into the night!</p>
+            </div>
+            <div class="card">
+                <h3>Trade Your Soul</h3>
+                <div class="card-img">
+                    <img src="Assets/Game_Cards/Trade Soul.jpg" alt="Trade Your Soul" class="card-img">
+                </div>
+                <p>Make chilling deals and trade your soul for thrilling rewards in this spine-tingling adventure!</p>
+            </div>
+            <div class="card">
+                <h3>Trick or Treat</h3>
+                <div class="card-img">
+                    <img src="Assets/Game_Cards/Trick or Treat.jpg" alt="Trick or Treat" class="card-img">
+                </div>
+                <p>Embark on a spooky quest for candy, where every house holds a delightful surprise or a haunting
+                    trick!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Entertainment Section -->
+    <section class="entertainments" id="entertainments">
+        <h2>Entertainment</h2>
+        <!-- Add Dropdown: Movies/Books -->
+        <div class="entertainment-grid">
+            <div class="entertainment">
+                <h3>Movies</h3>
+                <p>Sink into spine-chilling tales and eerie flicks that will keep you on the edge of your seat all
+                    Halloween night!</p>
+            </div>
+            <div class="entertainment">
+                <h3>Books</h3>
+                <p>Dive into haunting stories and dark mysteries that will send shivers down your spine with every turn
+                    of the page!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>The Graveyard</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Book Your Slot</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Phantom Hacks. Built with 💀 and 🎃.</p>
+        <!-- Social Icons -->
+        <div class="social-links">
+            <a href="https://github.com"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </footer>
 </body>
+
 </html>
