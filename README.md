@@ -1,13 +1,18 @@
+<!-- This is the anchor for the "Back to Top" button -->
+<div id="top">
+
 # Phantom Hacks
 
-Phantom Hacks is the first-ever frontend virtual coding event organized in the HETC campus as part of the **GDG(Google Developer Groups) on campus HETC**! It is sponsored by CatOff.
-The theme of the first season of Phantom Hacks is: **Halloween** - a haunted challenge that might send chills down your spine!
+</div> 
+
+Phantom Hacks is the first-ever frontend virtual coding event organized in the HETC campus as part of the **[GDG on campus HETC](https://www.linkedin.com/company/gdg-oncampus-hetc/)**! It is sponsored by **[CatOff](https://devfolio.co/projects/catoff-gaming-c18f)**.
+The theme of the first season of [Phantom Hacks](https://phantomhacks.onrender.com/) is: **Halloween** - a haunted challenge that might send chills down your spine!
 
 ## Overview
 
 This repository contains all the code, design elements, and documentation for the innovative front-end solution, created during the Phantom Hacks virtual hackathon. This project is focused on delivering sleek, responsive, and interactive user interfaces.
 
-## Key Features:
+## Key Features
 
 - **Interactive Elements:** Engaging user interactions for an enhanced experience 🎯
 - **Clean Code:** Well-structured and maintainable codebase for easy collaboration and access 🛠️
