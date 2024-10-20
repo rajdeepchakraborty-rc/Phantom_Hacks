@@ -197,40 +197,6 @@ a:hover {
 }
 
 
-/* Entertainment Section */
-.entertainments {
-    padding: 5rem 10%;
-    background-color: #1c1c1c;
-}
-
-.entertainment-grid {
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
-}
-
-.entertainment {
-    background-color: #1a1a1a;
-    padding: 2rem;
-    border-radius: 10px;
-    width: 300px;
-    text-align: center;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.entertainment:hover {
-    box-shadow: 0 10px 25px rgba(255, 117, 24, 0.7);
-    transform: translateY(-10px);
-    transition: 0.3s ease;
-}
-
-.entertainments h2 {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-
 /* Contact Section */
 .contact {
     padding: 2rem 10%;
