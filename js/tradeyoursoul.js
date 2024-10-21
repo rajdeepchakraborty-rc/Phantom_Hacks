@@ -8,12 +8,12 @@ function closeEnvelope() {
         envelope.style.backgroundColor = "#8A0000"; // Blood red color
 
         // Update the reply message text
-        replyMessage.innerText = `Yum Yum! ${nameInput.value}! Your Soul has been accepted! You may Rest In Peace`; // Customize your reply message here
+        replyMessage.innerText = `Behold ${nameInput.value}! Your Soul has been accepted!\n You may Rest In Peace`;
 
         // Show the reply message and fade it in
         setTimeout(() => {
-            replyMessage.style.display = 'block'; // Show the reply message
-        }, 500); // Delay to show the reply message after color change
+            replyMessage.style.display = 'block'; // Shows the reply message
+        }, 500); // Delay added to show the reply message after color change
     } else {
         alert("Please write a name!");
     }
