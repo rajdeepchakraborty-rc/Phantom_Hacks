@@ -8,9 +8,15 @@
 Phantom Hacks is the first-ever frontend virtual coding event organized in the HETC campus as part of the **[GDG on campus HETC](https://www.linkedin.com/company/gdg-oncampus-hetc/)**! It is sponsored by **[CatOff](https://devfolio.co/projects/catoff-gaming-c18f)**.
 The theme of the first season of [Phantom Hacks](https://phantomhacks.onrender.com/) is: **Halloween** - a haunted challenge that might send chills down your spine!
 
+<!--Line-->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
 ## Overview
 
 This repository contains all the code, design elements, and documentation for the innovative front-end solution, created during the Phantom Hacks virtual hackathon. This project is focused on delivering sleek, responsive, and interactive user interfaces.
+
+<!--Line-->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 ## Key Features
 
@@ -18,6 +24,9 @@ This repository contains all the code, design elements, and documentation for th
 - **Clean Code:** Well-structured and maintainable codebase for easy collaboration and access 🛠️
 - **Interactive Games:** Fun and engaging games to enhance learning and user engagement 🎮
 - **Activities:** Various activities held during Halloween 🎃
+
+<!--Line-->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 ## 🧰 Tech Stack
 
@@ -27,6 +36,9 @@ This repository contains all the code, design elements, and documentation for th
   <a href="https://www.w3schools.com/js/"><img src="https://img.icons8.com/color/70/000000/javascript--v1.png" alt="JS" /></a>
 </p>
 
+<!--Line-->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
 ## 👻 Souls
 
 | ![Rajdeep Chakraborty](https://avatars.githubusercontent.com/u/68934988?v=4&s=80) |
@@ -34,6 +46,8 @@ This repository contains all the code, design elements, and documentation for th
 | **Rajdeep Chakraborty** <br> <sub>Project Owner</sub> | 
 | [![LinkedIn](https://img.icons8.com/fluency/32/000000/linkedin.png)](https://www.linkedin.com/in/rajdeepchakraborty69/) |
 
+<!--Line-->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 ## ⭐️ Support the Project
 If you find this project interesting or helpful, please consider giving it a ⭐️ on GitHub! Hope you have a great day ahead! 😄
