@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Added Favicon -->
+    <link rel="shortcut icon" href="/Assets/Favicon/Favicon_2.png" type="image/x-icon">
+    <title>Phantom Hacks</title>
+    <!-- Linked CSS file -->
+    <link rel="stylesheet" href="/css/trickortreat.css">
+    <link rel="stylesheet" href="/css/scroll.css">
+    <!-- Added Fonts: Nosifer and Creepster -->
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Creepster&display=swap" rel="stylesheet">
+    <!-- Added Font Awesome Icons Latest Version to render Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Page Loader Animation -->
+    <div id="loading-screen">
+        <h1>Loading...</h1>
+        <img src="/Assets/Page_Loader.gif" alt="Loading Spinner"> <!-- Optional loading spinner -->
+    </div>
+
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="/index.html">
+                <div class="logo">
+                    <img src="/Assets/Page_Logo/Logo_Before.png" alt="Phantom Logo" class="logo-image" />
+                    <h1>Phantom Hacks</h1>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/index.html#games">Games</a></li>
+                <li><a href="/html/about.html">About</a></li>
+                <li><a href="#">Activities</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Insert Here -->
+    <div class="ToT">
+        <h1>Trick or Treat: Candy Hunt!</h1>
+        <p>Click on a door to knock and see if you get a treat or a trick!</p>
+
+        <div class="game-container">
+            <div class="door" id="door1" onclick="knockDoor('door1')">
+                <img src="/Assets/closed-door.png" alt="Closed Door" id="door1-img">
+            </div>
+            <div class="door" id="door2" onclick="knockDoor('door2')">
+                <img src="/Assets/closed-door.png" alt="Closed Door" id="door2-img">
+            </div>
+            <div class="door" id="door3" onclick="knockDoor('door3')">
+                <img src="/Assets/closed-door.png" alt="Closed Door" id="door3-img">
+            </div>
+        </div>
+
+        <div class="scoreboard">
+            <p id="message">Knock on a door to start!</p>
+            <p>Candies Collected: <span id="candyCount">0</span></p>
+            <p>Tricks: <span id="trickCount">0</span></p>
+        </div>
+    </div>
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Phantom Hacks. Built with 💀 and 🎃.</p>
+
+        <!-- Add Scroll to top button -->
+        <button id="scrollToTopBtn" class="scrollToTopBtn" onclick="scrollToTop()">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+
+        <!-- Social Icons -->
+        <div class="social-links">
+            <a href="https://github.com"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="/js/trickortreat.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/scroll.js"></script>
+</body>
+
+</html>
