@@ -16,7 +16,8 @@ This repository contains all the code, design elements, and documentation for th
 
 - **Interactive Elements:** Engaging user interactions for an enhanced experience 🎯
 - **Clean Code:** Well-structured and maintainable codebase for easy collaboration and access 🛠️
-- **Responsive Design:** Optimized for all devices and screen sizes 📱💻 [Still working on it! **PENDING**]
+- **Interactive Games:** Fun and engaging games to enhance learning and user engagement 🎮
+- **Activities:** Various activities held during Halloween 🎃
 
 ## 🧰 Tech Stack
 
