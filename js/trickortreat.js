@@ -25,7 +25,7 @@ function knockDoor(doorId) {
     let doorImg = document.getElementById(`${doorId}-img`);
 
     // Randomly decide if it's a treat (candy) or a trick
-    let isTreat = Math.random() > 0.5; // 50% chance for treat
+    let isTreat = Math.random() > 0.35; // 35% chance for treat
 
     doorImg.src = "/Assets/open-door.png";
 
@@ -41,10 +41,10 @@ function knockDoor(doorId) {
     }
 
 
-    // Set a timeout to change the door back to closed after 2 seconds
+    // Set a timeout to change the door back to closed after 1 seconds
     setTimeout(() => {
         doorImg.src = "/Assets/closed-door.png";
-    }, 2000); // 2 seconds
+    }, 1000); // 1 seconds
 
     // Update the score display
     candyElement.innerText = candyCount;
