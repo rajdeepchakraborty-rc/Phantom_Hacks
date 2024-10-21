@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Creepster', 'Nosifer', sans-serif;
+    background-color: #0e0e0e;
+    color: #f1f1f1;
+}
+
+/* Page Loader CSS */
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(37, 35, 35); /* Matching background for GIF */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 9999; /* Ensure it sits above all content */
+}
+
+/* Logo CSS */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the image before hover with Glow and Pulsating effect */
+.logo-image {
+    width: 90px;
+    height: auto;
+    margin-right: 10px;
+    animation: pulse 1.5s infinite; /* Applied: Pulsating effect */
+    filter: brightness(1.5); /* Applied: Glow effect */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effects for the image */
+.logo-image:hover {
+    transform: scale(1.1); /* Slightly enlarge the logo on hover */
+    content: url('/Assets/Page_Logo/Logo_After.png'); /* Image change on hover */
+}
+
+h1, h2, h3 {
+    color: #ff7518;
+    text-shadow: 2px 2px 5px black;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+a {
+    color: #ff7518;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+/* Header Styles */
+.header {
+    background-color: #1c1c1c;
+    padding: 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Navbar Styles */
+.navbar {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 75px;
+}
+
+.navbar .logo h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li {
+    font-size: 1.2rem;
+}
+
+/* Insert Here */
+.activities {
+    padding: 4rem 10%;
+    background-color: #262626;
+    text-align: center;
+}
+
+.activities-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap; /* Wrap the cards on smaller screens */
+}
+
+.activities-cards .card {
+    background-color: #1a1a1a;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 541px;
+    height: 545px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    text-align: left; /* Align text to the left */
+    overflow: hidden; /* Ensures content stays inside the card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.card h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.activities-cards .card:hover {
+    transform: translateY(-10px);
+    transition: 0.3s ease;
+    box-shadow: 0 10px 25px rgba(255, 117, 24, 0.7);
+}
+
+.activities-cards .card:hover p {
+    /* Change color to yellow on hover */
+    color: #ffcc00;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center; /* Horizontally centers the image */
+    align-items: center; /* Vertically centers the image */
+}
+.card-img img{
+    height: 265px;
+    width: 404px;
+    border-radius: 10px; 
+    margin-bottom: 1rem; 
+}
+
+
+/* Footer Section */
+.footer {
+    background-color: #141414;
+    padding: 2rem 10%;
+    text-align: center;
+    color: #999;
+}
+
+.footer p {
+    margin-bottom: 1rem;
+}
+
+.footer .social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer .social-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: orange; /* Added: Outer circle in background */
+    border-radius: 50%; /* Adjusted: Circular shape */
+    color: white; /* Icon color */
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.footer .social-links a:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    background-color: red;
+}
+
+.footer .social-links a:hover .fa-github{
+    color: #181717;
+}
+
+.footer .social-links a:hover .fa-linkedin{
+    color: #0077B5;
+}
+
+.footer .social-links a:hover .fa-x-twitter{
+    color: black;
+}
