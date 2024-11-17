@@ -1,6 +1,8 @@
 <!-- This is the anchor for the "Back to Top" button -->
 <div id="top"></div> 
 
+![Project Preview](/Assets/Video_thumbnail.png)
+
 <div align="center">
 
 # Phantom Hacks
